@@ -1,1 +1,3 @@
-# teyoncooper.github.io
+# Teyon Coopers Portfolio
+
+*Created by Teyon Cooper*

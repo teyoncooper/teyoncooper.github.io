@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid rgb(0, 2, 99);
+    padding-left: 1em;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: rgb(0, 2, 99);
+    padding: .5em;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+p {
+    text-align: start;
+}
+
+#blog-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2em;
+    color: rgb(0, 2, 99);
+}
+
+#side-navbar {
+    display: flex;
+    flex-direction: column;
+    width: 42vw;
+    margin-right: .5em;
+    color: rgb(0, 2, 99);
+    justify-content: center;
+    text-align: start;
+    padding-top: 1em;
+}
+#pic {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.padding1 {
+    padding-top: 1em;
+}
+
+#name {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    grid-column: 2/3;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.horizontal {
+    border-bottom: 3px solid white;
+    width: 100%;
+    height: 3px;
+}
+
+#name h3,#name h4 {
+    margin: 0; 
+}
+
+.icon {
+    padding-right: .5em;
+}
+
+.padding0 {
+    padding-bottom: 2em;
+}
+
+@media screen and (min-width: 700px) {
+
+    header {
+        padding: .75em;
+    }
+
+    #side-navbar {
+        margin-left: 2em;
+        width: 20vw;
+        margin-right: 3em;
+    }
+
+}
+@media screen and (min-width: 1000px) {
+
+    header {
+        grid-template-columns: 25% 75%;
+        padding: 1em;
+    }
+
+}
